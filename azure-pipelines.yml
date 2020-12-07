@@ -5,7 +5,6 @@
 
 trigger:
  branches:
-   -master
    -feature/*
 
 pool:
