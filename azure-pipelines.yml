@@ -5,7 +5,7 @@
 
 trigger:
  branches:
-   -feature/*
+   -main
 
 pool:
   vmImage: 'Ubuntu 16.04'
