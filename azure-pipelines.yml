@@ -5,9 +5,10 @@
 
 trigger:
   branches:
-     include:
-       -master
-       -feature/*
+    include:
+    - master
+    - feature/*
+    - releases/*
 
 pool:
   vmImage: 'Ubuntu 16.04'
