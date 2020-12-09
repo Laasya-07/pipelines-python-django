@@ -54,4 +54,4 @@ steps:
     testRunTitle: 'Python $(PYTHON_VERSION)'
 
 -task:Powershell@2
-  displayName: 'Build successful'
+  displayName: "Build successful"
