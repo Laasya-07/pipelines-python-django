@@ -47,14 +47,15 @@ steps:
   condition: succeededOrFailed()
   displayName: 'Run tests'
 
+
+
 - task: PublishTestResults@2
   condition: succeededOrFailed()
   inputs:
     testResultsFiles: "**/TEST-*.xml"
     testRunTitle: 'Python $(PYTHON_VERSION)'
   
--script: |
-  displayName: 'Build success'
+
 
 
   
