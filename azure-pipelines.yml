@@ -52,6 +52,7 @@ steps:
   inputs:
     testResultsFiles: "**/TEST-*.xml"
     testRunTitle: 'Python $(PYTHON_VERSION)'
+    displayName: 'Build success'
 
--task:Powershell@2
-  displayName:'Print Build success'
+
+  
