@@ -52,8 +52,8 @@ steps:
   inputs:
     testResultsFiles: "**/TEST-*.xml"
     testRunTitle: 'Python $(PYTHON_VERSION)'
-  outputs:
-    displayName: 'Build success'
+  
+  displayName: 'Build success'
 
 
   
