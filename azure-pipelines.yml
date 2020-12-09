@@ -47,7 +47,9 @@ steps:
   condition: succeededOrFailed()
   displayName: 'Run tests'
 
-
+steps:
+- script: echo Build successful
+  displayName: 'Build done'
 
 - task: PublishTestResults@2
   condition: succeededOrFailed()
