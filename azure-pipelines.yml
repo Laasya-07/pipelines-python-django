@@ -48,8 +48,7 @@ steps:
   displayName: 'Run tests'
 
 
-- script: echo Build successful
-  displayName: 'Build done'
+
 
 - task: PublishTestResults@2
   condition: succeededOrFailed()
@@ -57,7 +56,8 @@ steps:
     testResultsFiles: "**/TEST-*.xml"
     testRunTitle: 'Python $(PYTHON_VERSION)'
   
-
+- script: echo Build successful
+  displayName: 'Build done'
 
 
   
